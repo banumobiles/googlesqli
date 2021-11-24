@@ -1,0 +1,3 @@
+googler --count 100 --exact "home.php?cat=" | grep http > sqli
+
+grep -Hre "available databases"
